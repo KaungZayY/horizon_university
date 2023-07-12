@@ -1,0 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+body{
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+
+
+
+/*for userlogin, register, forgor password*/
+
+
+section{
+   padding:3rem 2rem;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+header{
+   
+   display: flex;
+   justify-content: center;  
+}
+
+header .img-logo{
+   margin-top: 30px;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 25px;
+}
+.form-container{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:2rem;
+
+}
+
+
+
+.form-container form{
+   padding-top: 2rem;
+   padding-bottom: 3rem;
+   padding-right: 5rem;
+   padding-left: 5rem;
+   width: 50rem;
+   background: rgba(255,255,255,1);
+   opacity: 95%;
+   border-radius: 0.5rem;
+}
+
+
+.button {
+  background-color: #4354A5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #7984B6;
+}
+
+
+span.forgetpsww {
+  float: right;
+color: rgba(28, 0, 200, 0.91);
+  font-size: 15px;
+
+}
+
+.toggleeye{
+    margin-left: -30px;
+}
+

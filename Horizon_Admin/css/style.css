@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#F4F2EC;
+}
+.flexMid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;    
+    height:100vh;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;    
+    height:100vh;
+}
+.container h1{
+    font-size:40px;
+    font-weight:700px;
+    line-height:30px;
+    align-items: center;
+    margin-top:70px
+}
+.inputContainer{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-bottom:10px;
+}
+.inputContainer p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.inputContainer input{
+    width:538px;
+    height:45px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding:4px 11px;
+    outline: none;
+}
+.inputGroup{
+    display:flex;
+    align-items:center;
+}
+.svgContainer{
+    border: 2px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    width: 45px;
+    height: 45px;
+    padding:4px 11px;
+    background: #E5E5E5;
+    border: 2px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.inputGroup svg{
+    width:18px;
+    height: 20px;
+    background: #E5E5E5;
+}
+.inputGroup input{
+    width:500px;
+    border-radius: 0px 10px 10px 0px;
+    border-left:none;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+    width: 217px;
+    height: 30px;
+    margin-bottom: 60px;
+}
+.buttonContainer button{
+    width: 96px;
+    height: 30px;
+    outline:none;
+    background: rgba(67, 84, 165, 0.9);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color:#ffffff;
+}
+.logoutButtonContainer{
+    display:flex;
+    justify-content:space-between;
+    width:262px;
+    align-items:center;
+    flex-direction:row;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.logoutButtonContainer button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    width:110px;
+    height: 50px; 
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.form-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: flex;
+ }
+ 
+ .form-container form{
+ width: 100%;
+ }

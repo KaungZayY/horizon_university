@@ -1,0 +1,367 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+/*for user wall, account and home*/
+
+body {
+  background-color: #f4f2ec;
+  font-family: "SF Pro Display", sans-serif;
+}
+.box1 {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+}
+
+.ideadetail {
+  margin-top: 30px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+.derow {
+  display: flex;
+  padding-top: 30px;
+  width: 100%;
+}
+.cmter {
+  width: 50%;
+}
+
+.detail {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.acc {
+  width: 75%;
+  border: 2px solid #000;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.form-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+
+  border: 2px solid #000000;
+  border-radius: 10px;
+  display: flex;
+}
+
+.form-container .form {
+  width: 100%;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.search {
+  float: right;
+  margin-top: 2px;
+  font-size: 20px;
+}
+
+.icon {
+  margin-left: -30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #595f6c;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+li a.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  text-underline-offset: 3.5px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 > div {
+  flex: 1;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.box {
+  width: 350px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+button {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: white;
+  color: #7e7e7e;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #4354a5;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic .profile {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.button-container {
+  text-align: center;
+}
+
+.update-button,
+.cancel-button {
+  display: inline-block;
+  margin: 10px;
+}
+
+.border {
+  border-width: 0 0 1px;
+  border-bottom: 1px solid #595f6c;
+  width: 73%;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 75%;
+  margin-right: 20px;
+}
+
+.columnevents1 {
+  flex: 75%;
+  margin-right: 20px;
+}
+
+.column2 {
+  flex: 25%;
+  padding: 10px;
+}
+
+.ideaphoto {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.column2 h3 {
+  text-align: center;
+}
+
+.column2 .btridea {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 206px;
+  position: relative;
+}
+
+.columnevents1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventbox1 {
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 225px;
+}
+.eventbox2 {
+  margin-top: 50px;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 225px;
+}
+
+.topsection {
+  height: 85%;
+  border-bottom: 1px solid #000;
+}
+
+.bottomsection {
+  height: 25%;
+  border-top: 1px solid #000;
+}
+.time {
+  float: right;
+}
+
+.catecontainer {
+  width: 100%;
+}
+
+.btnnew {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btncate {
+  padding-top: 10px;
+  padding-bottom: 70px;
+  margin-right: 100px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+.cate2 {
+  padding: 10px;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.main-container {
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.bottomsection2 {
+  /*   flex: 10%;*/
+  border-top: 2px solid #000;
+  display: flex;
+}
+
+.name {
+  width: 100%;
+}
+
+.statsimg {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+/* Style the drop-down container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+}
+
+/* Style the drop-down button */
+.dropdown .dropbtn {
+  background-color: #4354a5;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the drop-down content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Style the links inside the drop-down */
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  width: 55px;
+}
+
+/* Style the links inside the drop-down on hover */
+.dropdown-content a:hover {
+  width: 55px;
+}
+
+/* Show the drop-down menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
